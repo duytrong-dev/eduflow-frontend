@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function LoginPage() {
     return (
         <div className="container grid min-h-svh lg:grid-cols-2 relative">
-            <div className="flex justify-center md:absolute md:top-6 md:left-0">
+            <div className="flex justify-center mt-6 md:absolute md:top-6 md:left-0">
                 <Logo />
             </div>
             <div className="hidden relative w-full h-full lg:block">
