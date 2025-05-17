@@ -16,15 +16,15 @@ export function RegisterForm({className,...props}: React.ComponentProps<"form">)
             <div className="grid gap-6 text-gray-600">
                 <div className="grid gap-3">
                     <Label htmlFor="email">Email</Label>
-                    <Input id="email" type="email" placeholder="m@example.com" required />
+                    <Input id="email" type="email" placeholder="m@example.com" required className="focus:bg-white focus-visible:border-blue-300 focus-visible:ring-blue-200 focus:outline-none"/>
                 </div>
                 <div className="grid gap-3">
                     <Label htmlFor="password">Mật khẩu</Label>
-                    <Input id="password" type="password" required />
+                    <Input id="password" type="password" required className="focus:bg-white focus-visible:border-blue-300 focus-visible:ring-blue-200 focus:outline-none"/>
                 </div>
                 <div className="grid gap-3">
                     <Label htmlFor="confirm-password">Xác nhận mật khẩu</Label>
-                    <Input id="confirm-password" type="password" required />
+                    <Input id="confirm-password" type="password" required className="focus:bg-white focus-visible:border-blue-300 focus-visible:ring-blue-200 focus:outline-none"/>
                 </div>
                 <Button type="submit" className="w-full hover:cursor-pointer bg-[var(--primary-blue)] shadow-lg shadow-blue-200 transition-all duration-300 hover:translate-y-1 hover:shadow-none hover:bg-blue-300">
                     Đăng ký
